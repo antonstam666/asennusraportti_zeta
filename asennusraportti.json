@@ -1,0 +1,182 @@
+{
+  "title": "Installation Report",
+  "fields": [
+    {
+      "type": "control_head",
+      "text": "Project Information",
+      "size": "large"
+    },
+    {
+      "type": "control_textbox",
+      "label": "Project Name",
+      "name": "project_name"
+    },
+    {
+      "type": "control_textarea",
+      "label": "Contact Information",
+      "name": "contact_information"
+    },
+    {
+      "type": "control_datetime",
+      "label": "Date",
+      "name": "date"
+    },
+    {
+      "type": "control_head",
+      "text": "Installation Details",
+      "size": "large"
+    },
+    {
+      "type": "control_textbox",
+      "label": "Screen Name",
+      "name": "screen_name"
+    },
+    {
+      "type": "control_dropdown",
+      "label": "Screen Size",
+      "name": "screen_size",
+      "options": [
+        "32 inch",
+        "42 inch",
+        "50 inch",
+        "65 inch",
+        "Other"
+      ]
+    },
+    {
+      "type": "control_textbox",
+      "label": "Installation Height",
+      "name": "installation_height"
+    },
+    {
+      "type": "control_fileupload",
+      "label": "General Screen View",
+      "name": "general_screen_view"
+    },
+    {
+      "type": "control_fileupload",
+      "label": "Close-Up View",
+      "name": "close_up_view"
+    },
+    {
+      "type": "control_head",
+      "text": "Equipment and Supplies",
+      "size": "large"
+    },
+    {
+      "type": "control_matrixdynamic",
+      "label": "Additional Equipment Used",
+      "name": "additional_equipment",
+      "columns": [
+        { "label": "Equipment Name", "type": "text" },
+        { "label": "Quantity", "type": "number" }
+      ]
+    },
+    {
+      "type": "control_head",
+      "text": "Delays and Issues",
+      "size": "large"
+    },
+    {
+      "type": "control_checkbox",
+      "label": "Cause of Delay",
+      "name": "cause_of_delay",
+      "options": [
+        "Incomplete Site Preparation",
+        "Missing Equipment",
+        "Connectivity Issues",
+        "Other"
+      ]
+    },
+    {
+      "type": "control_number",
+      "label": "Time Lost (Hours)",
+      "name": "time_lost_hours"
+    },
+    {
+      "type": "control_number",
+      "label": "Time Lost (Minutes)",
+      "name": "time_lost_minutes"
+    },
+    {
+      "type": "control_number",
+      "label": "Distance Covered (km)",
+      "name": "distance_covered"
+    },
+    {
+      "type": "control_number",
+      "label": "Travel Time (Hours)",
+      "name": "travel_time"
+    },
+    {
+      "type": "control_head",
+      "text": "Travel and Work Details",
+      "size": "large"
+    },
+    {
+      "type": "control_number",
+      "label": "Work Hours",
+      "name": "work_hours"
+    },
+    {
+      "type": "control_number",
+      "label": "Travel Distance (km)",
+      "name": "travel_distance"
+    },
+    {
+      "type": "control_dropdown",
+      "label": "Daily Allowance",
+      "name": "daily_allowance",
+      "options": [
+        "Full Day",
+        "Half Day",
+        "None"
+      ]
+    },
+    {
+      "type": "control_head",
+      "text": "Installer’s Checklist",
+      "size": "large"
+    },
+    {
+      "type": "control_checkbox",
+      "label": "Checklist Items",
+      "name": "checklist_items",
+      "options": [
+        "Devices Physically Installed",
+        "Operational Testing Completed",
+        "Installation Photos Captured",
+        "Remote Control Provided to Client",
+        "Client Informed of Device Locations",
+        "Quick User Training Provided",
+        "Client Acknowledged Completion",
+        "Report Submitted"
+      ]
+    },
+    {
+      "type": "control_textarea",
+      "label": "Comments or Notes",
+      "name": "comments_notes"
+    },
+    {
+      "type": "control_head",
+      "text": "Approval and Submission",
+      "size": "large"
+    },
+    {
+      "type": "control_signature",
+      "label": "Client Signature",
+      "name": "client_signature"
+    },
+    {
+      "type": "control_textbox",
+      "label": "Installer Name",
+      "name": "installer_name"
+    },
+    {
+      "type": "control_textbox",
+      "label": "Installer ID",
+      "name": "installer_id"
+    }
+  ]
+}
